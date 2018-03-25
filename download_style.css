@@ -1,0 +1,655 @@
+* {
+    box-sizing: border-box;
+}
+
+p { 
+line-height: 1em; 
+}
+
+h1, h2, h3, h4 {
+    color: orange;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+
+@media screen and (min-width: 1152px) {
+h1 { 
+	 font-family: 'Courgette', cursive;
+     font-size: 1.8em;
+	 float:left;
+	 margin:10px;
+	 color:white; 
+}
+
+}
+
+@media screen and (max-width: 1152px) {
+h1 { 
+	 font-family: 'Courgette', cursive;
+     font-size: 1.8em;
+	 float:left;
+	 color:red; 	
+}
+}
+
+@media screen and (max-width: 800px) {
+h1 { 
+	
+     font-size: 1.2em;
+	 margin-top:10px;
+}
+
+}
+
+
+
+@media screen and (max-width: 799px) {
+#agencija { 
+	 text-align: center;
+	 width: 100%;
+     font-size: 0.8em;
+	 margin-top:10px;
+}
+
+}
+
+@media screen and (min-width: 641px) {
+#bilansa { 
+	display: none;
+}
+}
+
+@media screen and (max-width: 640px) {			/* !!!! */
+#bilansa { 
+	display: block;
+	width: 100%;
+	margin-top: 40px;
+	font-size: 32px;
+	text-align: center;
+}
+}
+
+@media screen and (max-width: 639px) {
+#bilansa { 
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 27px;
+}
+}
+
+@media screen and (max-width: 400px) {
+#bilansa { 
+	display: block;
+	width: 50%;
+	margin-top: 30px;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-size: 20px;
+	text-align: center;
+}
+}
+
+
+
+@media screen and (max-width: 799px) {
+#finan_usl { 
+	 margin-left: -15px;
+	 text-align: center;
+	 width: 100%;
+     font-size: 0.8em;
+	 margin-top:10px;
+}
+}
+
+
+
+@media screen and (min-width: 1280px) {
+#zaglavlje {	
+	display: inline-block;
+	width:100%;
+	float:left;
+	min-height: 1px;    
+	background-image:url('md.png');
+	background-size: 100% 100%;
+	height: 200px;
+}
+}
+
+
+@media screen and (max-width: 1152px) {
+#zaglavlje {	
+	display: inline-block;
+	width:100%;
+	float:left;
+	min-height: 1px;    
+	background-image:url('md.png');
+	background-size: 100% 100%;
+	height: 200px;
+	margin-bottom: 180px;
+}
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ font-weight: bold; }
+	
+h2 { 
+	 font-family: 'Courgette', cursive;
+     font-size: 1.5em; 
+	 margin: 10px;
+	 color: #C61A1A;
+}
+
+#kontakt {
+	font-size: 16px;
+	line-height: 130%;
+}
+
+
+@media screen and (max-width: 400px) {
+body {
+    font-family: arial;
+	font-size: 80%;
+	width: 100%;
+	line-height: 1.2em;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	min-width: 1280px;
+	height: 100%;
+}
+}
+
+@media screen and (min-width: 1280px) {
+#page { 
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;	
+	margin-bottom: 2%;	
+	}
+}
+
+
+@media screen and (min-width: 1280px) {
+#logo_text {
+	width: 33.33%;
+	min-height: 1px;
+	margin-top: -3px;
+	float:left;
+	display: inline-block;
+}
+}
+
+@media screen and (max-width: 1280px) {
+#logo_text {
+	width: 50%;
+	min-height: 1px;
+	margin-top: -3px;
+	float:left;
+	margin-left: 60px;
+	display: inline-block;	
+}
+}
+
+
+
+@media screen and (max-width: 1280px) {
+#logo_text {
+	width: 50%;
+	min-height: 1px;
+	margin-top: -3px;
+	float:left;
+	margin-left: 60px;
+	display: inline-block;
+}
+}
+
+@media screen and (max-width: 1152px) {
+#logo_text {
+	width: 50%;
+	min-height: 1px;
+	margin-top: 2px;
+	float:left;
+	margin-left: 40px;
+	display: inline-block;
+}
+}
+
+@media screen and (max-width: 1024px) {
+#logo_text {
+	width: 50%;
+	min-height: 1px;
+	margin-top: 10px;
+	float:left;
+	margin-left: 10px;
+	display: inline-block;
+}
+}
+
+@media screen and (max-width: 799px) {
+#logo_text {
+	clear: both;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	display: inline-block;
+}
+}
+
+@media screen and (min-width: 1280px) {
+#logo_slika {
+	width: 33.33%;
+	padding: 10px;
+	float: left;
+	display: inline-block;
+}
+}
+
+@media screen and (max-width: 1280px) {
+	#logo_slika {
+	width: 33.33%;
+	display: inline-block;
+	float: right;
+	
+}
+}
+
+@media screen and (max-width: 1152px) {
+	#logo_slika {
+	width: 33.33%;
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+	
+}
+}
+
+@media screen and (max-width: 1024px) {
+#logo_slika {
+	width: 45%;
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+}
+}
+
+@media screen and (max-width: 799px) {
+	#logo_slika {
+		/*
+	clear: both;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	*/
+	display: none;
+	
+}
+}
+
+@media screen and (max-width: 550px) {
+	#logo_slika {
+	display: none;
+	
+}
+}
+
+@media screen and (max-width: 799px) {
+#slovo_i { 
+	 text-align: center;
+	 width: 100%;
+     font-size: 0.8em;
+	 margin-top:10px;
+}
+}
+
+
+@media screen and (min-width: 800px)
+{
+#slovo_i {
+	text-align: center;
+	margin-left: 120px;
+	font-size: 25px;
+}
+}
+
+@media screen and (min-width: 801px)
+{
+#slovo_i {
+	text-align: center;
+	margin-left: 180px;
+	font-size: 25px;
+}
+}
+
+#finan_usl {
+	padding-left: 1.2cm;
+}
+
+
+#nav{
+	width: 33.33%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+	margin-top: -3px;
+}
+	#nav ul { 
+		
+	}
+		#nav ul li{
+			display: inline-block;
+			float: left;
+			height: 80px;
+			width: 33%;
+			
+		}
+			#nav ul li a {
+				width: 100%;
+				display: inline-block;
+				padding: 15px 25px;
+				font-size: 20px;
+				text-align: center;
+				cursor: pointer;
+				outline: none;
+				color: white;
+				/*
+				background-color: red;
+				*/
+				border: none;
+				border-radius: 15px;
+				box-shadow: 0 9px #999;
+			}
+			/*
+			#nav ul li a:hover {
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			*/
+			#nav ul li a:active { 
+				background-color: white; 
+				}
+
+
+
+@media screen and (max-width: 1280px) {
+#nav{
+	display: inline-block;
+	width: 100%;
+	background: #D7D3D3;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	box-shadow: 10px 10px 10px #888888;
+	border-radius: 15px 15px 10px 10px;
+	}	
+	#nav ul{
+		width: 99%;
+		margin-left: -1%;                               /* NOVO */
+		margin-right: 1%;
+	}
+	
+	#nav ul li a {
+			
+			color: black;			
+	}
+}
+
+@media screen and (min-width: 540px) and (max-width: 1152px) {
+#nav{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	background: #D7D3D3;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	box-shadow: 10px 10px 10px #888888;
+	border-radius: 15px 15px 10px 10px;
+	}	
+	#nav ul{
+		width: 99%;
+		margin-left: 0%;                               
+		margin-right: 1%;
+	}
+	
+	#nav ul li a {
+			color: black;			
+	}
+}
+				
+				
+#index_button:hover {
+	background-color: #2760CA; color: red; box-shadow: 0px 1px 1px #666;
+}
+
+#about_button:hover {
+	background-color: #47C87F; color: red; box-shadow: 0px 1px 1px #666;
+}
+
+#contact_button:hover {
+	background-color: #C61A1A; color: red; box-shadow: 0px 1px 1px #666;
+}
+
+#download_button:hover {
+	background-color: #F3C22D; color: red; box-shadow: 0px 1px 1px #666;
+}
+
+#pricing_button:hover {
+	background-color: #999; color: red; box-shadow: 0px 1px 1px #666;
+}
+
+#slideshow_button:hover {
+	background-color: white; color: red; box-shadow: 0px 1px 1px #666;
+}			
+
+@media screen and (min-width: 1280px) {				
+#content{
+	width: 100%;
+	height: 240px;
+	margin-top: 40px;
+	margin-bottom:30px;
+	border-radius: 15px 15px 10px 10px;
+	box-shadow: 20px 15px 15px #888888;
+	/*
+	background: #47C87F;
+	*/
+	background: #D7D3D3;
+	font-family: 'Inconsolata', monospace;
+	display: inline-block;
+	float:left;
+	min-height: 1px;
+}
+}
+
+@media screen and (max-width: 1280px) {				
+#content{
+	width: 100%;
+	margin-right: 2%;
+	height: 240px;
+	margin-top: 220px;
+	margin-bottom:30px;
+	border-radius: 15px 15px 10px 10px;
+	box-shadow: 20px 15px 15px #888888;
+	/*
+	background: #47C87F;
+	*/
+	background: #D7D3D3;
+	font-family: 'Inconsolata', monospace;
+	display: inline-block;
+	float:left;
+	min-height: 1px;
+}
+}
+
+@media screen and (max-width: 1152px) {				
+#content{
+	height: 300px;
+	margin-top: 60px;                        
+	
+}
+}
+
+@media screen and (max-width: 1024px) {				
+#content{
+	height: 300px;
+	margin-top: 40px;                         
+	
+}
+}
+
+@media screen and (max-width: 799px) {				
+#content{
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	
+}
+}
+
+@media screen and (max-width: 640px) {				
+#content{
+	margin-top: 120px;
+	
+}
+}
+
+#download_content
+{	
+	margin: 30px 0;
+	background: white;
+	padding: 10px;
+	clear: both;
+	
+}
+
+#dostupni_dok {
+	
+	font-family: 'Courgette', cursive; 
+	color: #C61A1A;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+	font-size: 1.5em;
+	
+}
+
+#download_sekcija
+{	
+	font-size: 16px;
+	line-height: 130%;
+	margin: 10px;
+	
+}
+
+#dokument_excel
+{	
+	margin: 30px;
+}
+
+#dokument_word
+{	
+	margin: 30px;
+}
+
+#dokument_adobe
+{	
+	margin: 30px;
+}
+
+#excel
+{
+	margin: 20px;
+	float: left;
+}
+
+#word
+{
+	margin: 20px;
+	float: left;
+}
+
+#adobe
+{
+	margin: 20px;
+	float: left;
+}
+
+#download_sekcija_dok {
+	
+	
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+	line-height: 130%;
+	background: white;
+}
+
+#download_box_excel {
+
+	display: inline-block;
+    width: 200px;
+    height: 75px;
+    border: 3px solid #73AD21;
+    text-align: center;
+
+}
+
+#download_box_word {
+	
+	display: inline-block;
+    width: 200px;
+    height: 75px;
+    margin-left: 10px;
+	margin-top: 20px;
+    border: 3px solid #0000FF;
+    text-align: center;
+
+}
+
+#download_box_adobe {
+	
+	display: inline-block;
+    width: 200px;
+    height: 75px;
+    margin-left: 10px;
+	margin-top: 20px;
+    border: 3px solid black;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 640px) {
+	#download_box_word, #download_box_adobe
+	{
+		margin-left: 0px;
+	}
+}
+
+#o_nama {
+	
+	font-size: 16px;
+	line-height: 130%;
+}
+
+#footer{
+	
+	width:100%;
+	float:left;
+	min-height: 1px;
+	border-bottom: 1px black solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: black;
+	}
+
+
+ul li a { 
+	box-shadow: 0px 1px 1px #999; 
+}

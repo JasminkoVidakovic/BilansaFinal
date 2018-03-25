@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tabela>
+	<Kriterij>
+		<Vrijednost>1</Vrijednost>
+		<Vrijednost>2</Vrijednost>
+		<Vrijednost>3</Vrijednost>
+		<Vrijednost>4</Vrijednost>
+	</Kriterij>
+	<Kriterij>
+		<Vrijednost>5</Vrijednost>
+		<Vrijednost>5</Vrijednost>
+		<Vrijednost>5</Vrijednost>
+		<Vrijednost>5</Vrijednost>
+	</Kriterij>
+	<Kriterij>
+		<Vrijednost>5</Vrijednost>
+		<Vrijednost>5</Vrijednost>
+		<Vrijednost>5</Vrijednost>
+		<Vrijednost>5</Vrijednost>
+	</Kriterij>
+</Tabela>

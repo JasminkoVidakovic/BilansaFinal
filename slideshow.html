@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bilansa-Galerija</title>
+<meta name="Jasminko Vidaković" content="your name" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="slideshow_style.css" type="text/css" />
+<script type="text/javascript" src="slideshow_func.js"></script>
+<script type="text/javascript" src="slideshow_dropdown.js"></script>
+</head>
+	<body>
+		<ul id="sddm">
+			<li>
+				<a href="index.php" onmouseover="mopen('m1')" onmouseout="mclosetime()">Početna</a>
+				<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+					<a href="about.html">O nama</a>
+					<a href="contact.html">Kontakt</a>
+					<a href="download.html">Download</a>					
+					<a href="pricing.html">Cjenik</a>
+				</div>
+			</li>
+		</ul>
+		<div id="major_container">
+			<div class="slider_wrapper">
+				<ul id="image_slider">
+					<li><img id="slika1" src="slika1.jpg" alt="Slika 1" onclick="FullScreen(0)"></li>
+					<li><img id="slika2" src="slika2.jpg" alt="Slika 2" onclick="FullScreen(1)"></li>
+					<li><img id="slika3" src="slika3.jpg" alt="Slika 3" onclick="FullScreen(2)"></li>
+				</ul>					
+				<span class="navigate" id="prev"></span>
+				<span class="navigate" id="next"></span>		
+			</div>
+			<div id="thumbnails">
+			
+			</div>
+			
+		</div>
+	</body>
+</html>

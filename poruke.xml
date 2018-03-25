@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sve_poruke>
+  <poruka>
+    <broj>0</broj>
+    <ime>Jasminko Vidakovic</ime>
+    <telefon>061/434-124</telefon>
+    <email>darkvalkirion@gmail.com</email>
+    <ocjena>5</ocjena>
+    <msg>Pozdrav, kako si ?!</msg>
+    <napomena/>
+  </poruka>
+  <poruka>
+    <broj>1</broj>
+    <ime>Mensura Vidakovic</ime>
+    <telefon>062/473-182</telefon>
+    <email>mensura0808@gmail.com</email>
+    <ocjena>5</ocjena>
+    <msg>Test123</msg>
+    <napomena></napomena>
+  </poruka>
+</sve_poruke>

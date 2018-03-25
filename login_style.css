@@ -1,0 +1,32 @@
+body {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.popupPrijava {
+	width: 30%;
+	position: fixed;
+	font-family: 'Courgette', cursive;
+	margin-left: 35%;
+	margin-right: 35%;
+	z-index: 99999999;
+	opacity:0;
+	-webkit-transition: opacity 600ms;
+	-moz-transition: opacity 600ms;
+	transition: opacity 600ms;
+	pointer-events: none;
+}
+
+.popupPrijava:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.popupPrijava > div {
+	width: 100%;
+	position: relative;
+	margin: 25% auto;
+	padding: 15px 20px 15px 20px;
+	border-radius: 10px;
+	background: #47C87F;
+}

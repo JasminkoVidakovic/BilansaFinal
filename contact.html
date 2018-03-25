@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bilansa-Contact</title>
+<link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+<meta name="Jasminko Vidaković" content="" />
+<meta name="-" content="" />
+<link rel="stylesheet" href="contact_style.css" type="text/css" />	
+</head>
+<body>
+	<div id="page">
+		<div id="zaglavlje">
+		<div id="logo_text">
+			<h1 id="agencija"><i>AGENCIJA ZA KNJIGOVODSTVO</i></h1><br><br><br><br>
+			<h1 id="slovo_i"><i>i</i></h1><br><br><br><br>
+			<h1 id="finan_usl"><i>FINANSIJSKE USLUGE</i></h1>
+			<h1 id="bilansa"><i>" Bilansa "</i></h1>
+		</div>
+		<div id="logo_slika"><img id="slikaLogo" src="noviLogo.png" width="320" height="160" alt="Slika"></div>
+		<div id="nav">
+			<ul>
+				<li><a id="index_button" href="index.php">Početna</a></li>
+				<li><a id="about_button" href="about.html">O nama</a></li>
+				<li><a id="contact_button" href="contact.html">Kontakt</a></li>
+				<li><a id="download_button" href ="download.html">Download</a></li>
+				<li><a id="pricing_button" href ="pricing.html">Cjenik</a></li>
+				<li><a id="slideshow_button" href="slideshow.html" target="_blank">Galerija</a></li>
+			</ul>	
+		</div>
+		</div>
+		<div id="content">
+			<h2><b>Kontakti</b></h2>
+			
+			<p id="contact_text">
+				<br>
+				<b><i>Lokacija agencije je prikazana na Google Maps:</i></b><br>
+			</p>
+			<div id="informacije">
+			<p id="contact_info">
+				<u><b><i>Kontakt informacije:</i></b></u><br><br>
+				<b><i>Adresa: Bosanska bb, 71.270 Fojnica</i></b><br><br>
+				<b><i>Telefon: 030 / 83 00 74</i></b><br><br>
+				<b><i>Email: </i></b><a id="email" href="mailto:fojnica.bilansa@gmail.com?Subject=Pitanje" target="_top"><b><i>Kliknite ovdje da pošaljete email (Outlook)</i></b></a>
+				<br><br>
+				<b><i>Kliknite </i></b><a id="ovdje" href="contact_form.php" target="_blank"><b><i>OVDJE </i></b></a><b><i>da nam pošaljete upit</i></b>
+				<br><br>
+				<b><i>Lajkujte našu <a id="fejs" href="https://www.facebook.com/bilansa.fojnica/">Facebook stranicu</a></i></b>
+				<div id="like_button">
+				<iframe id="like_share" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fbilansa.fojnica%2F&width=200&layout=button&action=like&size=small&show_faces=true&share=true&height=65&appId=1747756735444088"></iframe>
+				
+				</div>	
+			</div>
+			<div id="map" style="width:600px;height:310px;"></div>
+			
+			<script>
+			function myMap() 	
+								{
+    		var mapOptions = 
+			{
+        	center: new google.maps.LatLng(43.962539, 17.898429),
+        	zoom: 30,
+        	mapTypeId: google.maps.MapTypeId.HYBRID				 
+			}
+			var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+								} 
+			</script>
+			<script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyD3ohoxw3X4x1xhvYltzCIW4P-Cc7fqgJM"></script>
+		</div>
+		<div id="footer">
+			<p>
+				Webpage made by <b><i>Jasminko Vidaković</i></b>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

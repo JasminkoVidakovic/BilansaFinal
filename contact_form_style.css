@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+	font-size: 80%;
+	width: 99%;
+	line-height: 1.2em;
+	margin-left: 1%;
+	background: #eee;
+	min-width: 1280px;
+	max-width: 1600px;
+}
+
+p {
+	font-size: 18px;
+}
+
+#unosi {
+	display: inline-block;
+	float: left;
+}
+
+#ocjena {
+	display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	height: 35px;
+	font-size: 20px;
+}
+
+#ime {
+	width: 340px;
+	height: 35px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size: 20px;
+}
+
+#tel {
+	width: 160px;
+	height: 35px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size: 20px;
+}
+
+#email {
+	width: 300px;
+	height: 35px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size: 20px;
+}
+
+#poruka {
+	width: 450px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size: 16px;
+}
+
+#potvrdi {
+	width: 130px;
+	height: 30px;
+	margin-right: 36px;
+}
+
+#ponisti {
+	width: 130px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+#povratak {
+	width: 130px;
+	height: 30px;
+	background-color: blue;
+	color: red;
+}

@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+ 
+ body {
+	width: 100%;
+	font-family:'Open Sans';
+    font-weight: bold;
+    background: #D7D3D3;
+}
+
+a {
+	font-size: 18px;
+	font-family:'Open Sans';
+    color: white;
+    text-decoration: none;
+}
+
+sup {
+
+	font-size: 40px;
+}
+
+ul {
+	list-style: none;
+	font-size: 15px;
+	font-family:'Open Sans';
+	color: #9095aa;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+li {
+	border-bottom: 1px solid #494a5a;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	height: 52px;
+	line-height: 52px;
+}
+
+
+#container{
+	width: 100%;
+	text-align:center;
+}
+
+.svi_tipovi{
+	display: inline-block;
+}
+
+
+
+.tip{
+	width: 300px;
+	border-radius: 5px 5px 0px 0px;
+	background-color: #47C87F;
+	height: 62px;
+	border-bottom: 3px solid #bfa30c;
+}
+
+.tip p{
+	border-radius: 10px 10px 5px 5px;
+	font-family:'Open Sans';
+    font-weight: 800;
+	font-size: 29px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.tarifa{
+	width: 300px;
+	background-color: #2b2937;
+	border-radius: 0px 0px 5px 5px;
+    font-family:'Open Sans';
+    font-weight: bold;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
+
+#Povratak {
+	font-size: 1.5em; 
+	color: #C61A1A;
+}
+	
+#povratak {
+	margin-top: 2%;
+	width: 100%;
+	text-align: center;
+}
+
+#povratak:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: 'Courgette', cursive;
+    font-size: 1.5em; 
+}
+
+.header{
+	border-bottom: 1px solid #494a5a;
+	padding-bottom: 39px;
+}
+
+.header span{
+	font-size: 32px;
+}
+
+.mjesec{
+	font-size: 14px;
+	color: #575757;
+	padding: 0px;
+	margin: -10px;
+}
